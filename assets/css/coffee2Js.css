@@ -1,0 +1,29 @@
+body {
+	width: 450px;
+	height: 550px;
+	background-color: #bbb;
+}
+
+#cs_editor { 
+	width: 100%;
+	height: 43%;
+}
+
+#js_editor { 
+	width: 100%;
+	height: 43%;
+}
+
+#convert_button {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+	float: right;
+}
+
+#run_button {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+	float: right;
+}

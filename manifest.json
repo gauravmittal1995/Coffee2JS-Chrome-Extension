@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Coffee2JS",
+  "version": "0.1.0",
+  "description": "An Extention which compiles coffescript to JS",
+
+  "icons": {
+    "32": "icons/CoffeScriptJSv2_32x32.png",
+    "48": "icons/CoffeScriptJSv2_48x48.png",
+    "96": "icons/CoffeScriptJSv2_96x96.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/CoffeScriptJSv2_48x48.png",
+    "default_popup": "coffee2JS.html"
+  },
+
+  "permissions": [
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
